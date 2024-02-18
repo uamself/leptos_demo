@@ -13,7 +13,7 @@ use right::site::Site;
 #[component]
 pub fn Middle() -> impl IntoView {
     view! {
-    <div class="flex h-auto border bg-gray-600">
+    <div class="flex h-auto border pl-28 pr-28 bg-gray-200">
         <div class="h-auto w-2/3 border">
           <Carousel/>
           <Content/>
@@ -21,7 +21,7 @@ pub fn Middle() -> impl IntoView {
           <Content/>
           <Page/>
         </div>
-        <div class="h-auto w-1/3 border">
+        <div class="h-auto w-1/3 border ml-8">
           <AboutMe/>
           <Lable/>
           <Latest/>

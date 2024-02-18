@@ -2,7 +2,7 @@ use leptos::*;
 pub fn Site() -> impl IntoView {
     view! {
 
-    <div class="stats stats-vertical shadow w-96 mt-2">
+    <div class="stats stats-vertical shadow w-auto mt-2 ml-4">
 
       <div class="stat">
         <div class="stat-title">Downloads</div>
